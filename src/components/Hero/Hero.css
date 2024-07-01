@@ -1,0 +1,146 @@
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    justify-content: space-around;
+}
+.hero img{
+    margin: 50px;
+    width: auto;
+    height: 400px;
+   
+}
+.hero h1{
+    text-align: start;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.hero h1 span{
+    background: linear-gradient(270deg, #df8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero_content{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: end;
+    justify-content: center; 
+    width: 50%;
+    
+}
+.hero p{
+    width: 80%;
+    text-align: start;
+    font-size: 20px;
+    line-height: 30px;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+   
+}
+.hero-action a{
+    text-decoration: none;
+    color: white;
+}
+.hero-Connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    border:2px solid linear-gradient(267deg, #d6d6d6 0.36%, #bfafc4);
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
+   cursor: pointer;
+}
+
+.hero-Connect:hover{
+border:2px solid white;
+
+}
+
+.hero-Connect i {
+    margin-right: 10px;
+}
+
+.hero-Resume{
+    padding: 25px 45px;
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+   
+}
+.hero-Resume i {
+    margin-right: 10px;
+}
+.hero-Resume:hover{
+border:2px purple solid;
+transition: 0.3s;
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero img {
+        margin: 20px;
+        height: 300px;
+    }
+    .hero_content {
+        width: 80%;
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .hero p {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero img {
+        height: 250px;
+    }
+    .hero h1 {
+        font-size: 35px;
+    }
+    .hero p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .hero-action {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .hero-Connect, .hero-Resume {
+        padding: 15px 30px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero img {
+        height: 200px;
+    }
+    .hero h1 {
+        font-size: 30px;
+    }
+    .hero p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .hero-Connect, .hero-Resume {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
