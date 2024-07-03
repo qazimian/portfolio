@@ -123,6 +123,12 @@ font-weight: 500;
         align-items: center;
         margin: 20px 40px;
     }
+    .about-title h1{
+        font-size: 50px;
+    }
+    .about-title img{
+        height: 50px;
+    }
 
     .about-content {
         width: 100%;
@@ -148,7 +154,7 @@ font-weight: 500;
         margin: 20px;
     }
     .about-title h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     .about-title img {
         width: auto;

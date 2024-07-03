@@ -105,6 +105,9 @@ transition: 0.3s;
         width: 100%;
         text-align: center;
     }
+    .hero-action{
+        justify-content: center;
+    }
 }
 
 @media (max-width: 768px) {
