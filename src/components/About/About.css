@@ -114,6 +114,8 @@ font-weight: 500;
     transition: 0.5s;
 }
 
+/* //----media responsive  */
+
 
 @media (max-width: 1024px) {
     .about {
@@ -140,31 +142,31 @@ font-weight: 500;
         display: none;
     }
 }
-/* //----media responsive  */
-@media (max-width: 768px) {
+
+ @media (max-width: 768px) {
     .about {
         margin: 20px;
     }
-    .about-title h1{
+    .about-title h1 {
         font-size: 50px;
     }
-    .about-title img{
+    .about-title img {
         width: auto;
         height: 40px;
     }
-    .about-sections{
+    .about-sections {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .about-para{
+    .about-para p {
         font-size: 16px;
     }
     .about-skills p {
         font-size: 16px;
     }
-    .about-skills hr{
+    .about-skills hr {
         font-size: 16px;
     }
     .about-right {
@@ -173,20 +175,20 @@ font-weight: 500;
         padding: 10px;
     }
 
-    .about-right h2 {
+    .about-skills h2 {
         font-size: 24px;
     }
-    .about-skill{
+    .about-skill p {
         font-size: 10px;
     }
     .about-right p {
         font-size: 14px;
     }
 
-    .about-achievement p{
+    .about-achievement p {
         font-size: 14px;
     }
-    .about-achievement h1{
+    .about-achievement h1 {
         font-size: 36px;
     }
 }
@@ -195,22 +197,47 @@ font-weight: 500;
     .about {
         margin: 10px;
     }
-
-    .about-content {
+    .about-title h1 {
+        font-size: 40px;
+    }
+    .about-title img {
+        width: auto;
+        height: 30px;
+    }
+    .about-sections {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-left {
+        display: none;
+    }
+    .about-right {
         width: 100%;
         text-align: center;
         padding: 5px;
     }
-
-    .about-content h2 {
-        font-size: 20px;
+    .about-para p {
+        font-size: 14px;
     }
-
-    .about-content p {
+    .about-skills p {
+        font-size: 14px;
+    }
+    .about-skills hr {
+        font-size: 14px;
+    }
+    .about-skill p {
+        font-size: 8px;
+    }
+    .about-right p {
         font-size: 12px;
     }
 
-    .about-img {
-        display: none;
+    .about-achievement p {
+        font-size: 12px;
+    }
+    .about-achievement h1 {
+        font-size: 28px;
     }
 }
